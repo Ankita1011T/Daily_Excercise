@@ -1,15 +1,14 @@
 // TEMPLATE LITERALS
-/*let obj  = {
-    item: "pen",
-    price: 10,
-};
+console.log("ANKITA TRIBHUVAN\nVENKATESH ENDUGU");
 
-let output = `The cost of ${obj.item} is ${obj.price} ₹`;
-console.log (output);*/
+// you can replace and includes using strings:
+const url = "https://bellissimo@1018.com/Ankita%10tribhuvan"
+console.log(url.replace('%10','-'))
+console.log(url.includes('1018'))
 
-let obj = {
-    item: "Hair Scrunchies",
-    Price: "25",
-};
-let output = `The cost of ${obj.item} is for ${obj.Price} (₹).`;
-console.log(output);
+let name = "Javasript langague is difficult to learn. "
+console.log(name.replace('difficult','interesting'))
+console.log(name.includes('leanr'))
+
+let logName = "Aankita@1011 "
+console.log(logName.replace('11','18'));

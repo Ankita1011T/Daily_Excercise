@@ -1,0 +1,40 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#loader {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 15px solid 
+    #f606ae;
+    border-top-color:
+    #d0f75b;
+    animation: rotate 1s
+    infinite;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-top: 10px;
+
+}
+
+
+@keyframes rotate {
+    100%{
+        rotate: 360deg;
+    }
+}
+#container{
+height: 600px;
+width: 300px;
+border: 2px solid blue;
+box-shadow: #d0f75b;
+background-color: darkseagreen;
+border-radius: 50px;
+}
+
+
+
+

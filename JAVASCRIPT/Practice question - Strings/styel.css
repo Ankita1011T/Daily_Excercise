@@ -1,0 +1,20 @@
+h1{
+    color: navy;
+    text-decoration: underline;
+}
+p{
+    color: rgb(73, 72, 72);
+    font-size: larger;
+}
+.code{
+    color: black;
+    background-color: coral;
+    height: 150px;
+    width: 300px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.output{
+    color: black;
+    font-weight: bold;
+}
