@@ -40,7 +40,7 @@ input{
 	background: #e0dede;
 	justify-content: center;
 	display: flex;
-	margin: 20px auto;
+	margin: 10px auto;
 	padding: 10px;
 	border: none;
 	outline: none;
@@ -69,9 +69,10 @@ button:hover{
 .login{
 	height: 460px;
 	background: #eee;
-	border-radius: 60% / 10%;
+	border-radius: 70% / 30%;
 	transform: translateY(-180px);
 	transition: .8s ease-in-out;
+	text-decoration: underline;
 }
 .login label{
 	color: #573b8a;
