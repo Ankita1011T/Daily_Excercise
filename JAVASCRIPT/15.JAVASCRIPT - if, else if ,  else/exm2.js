@@ -1,7 +1,7 @@
 let age = prompt("Enter your age: ")
 
 if (age <= 10){
-    console.log("They all are kids")
+    alert("They all are kids")
 }
 else if(age >= 11 && age<= 17 ){
     console.log("They all are teenage")
