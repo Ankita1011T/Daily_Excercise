@@ -1,6 +1,6 @@
 let username = prompt("Enter Your Qualification:,")
 
-if( Qaulification >= "10+ ){
+if(Qaulification >= '10'+'th'){
     alert("Not Applicable");
 }else if(Qaulification >= 10+'th'+pass && Qaulification >= 12+'th'+pass ){
     alert("You Can Apply");
